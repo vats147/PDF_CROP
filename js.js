@@ -1,0 +1,1 @@
+ //accept pdf file as a  response and download it automatically

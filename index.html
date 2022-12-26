@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>File Upload JavaScript with Progress Ba | CodingNepal</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header>Select Your Platform</header>
+
+      <!-- make two radio button here  -->
+      <div class="center">
+        <div class="radio">
+          <!-- <h4>Select Your Platform</h4> -->
+          <input type="radio" name="upload" id="upload" checked />
+          <label for="upload">Flipkart</label>
+          <input type="radio" name="upload" id="url" />
+          <label for="url">Meesho</label>
+        </div>
+      </div>
+      <form action="#">
+        <input class="file-input" type="file" name="static_file"  accept=".pdf" hidden />
+        <i class="fas fa-cloud-upload-alt"></i>
+        <p>Browse File to Upload</p>
+      </form>
+      <section class="uploaded-area"></section>
+      <div class="center">
+        <button class="custom-btn btn-5 " id="upload">  
+              <div class="hidden">          
+               <div class="loading "></div>
+              </div>
+                Upload Now</button>
+
+                
+              </div>
+              <div class="download-container">
+        <a href="#" class="download-btn"
+          >Download files <i class="fas fa-download"></i
+        ></a>
+        <div class="countdown"></div>
+        <!-- <div class="pleaseWait-text">Please wait ...</div>
+     <div class="manualDownload-text">
+       If the download didn't start automatically, <a href="#" class="manualDownload-link" target="_top">click here</a>
+     </div> -->
+      </div>
+
+      <section class="progress-area"></section>
+    </div>
+
+    
+    <!-- <div class="loading"></div> -->
+   
+
+    
+
+      <!-- SPINNER 13   -->
+     
+
+     
+      
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
