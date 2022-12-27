@@ -7,6 +7,9 @@
 #      6. Amount                   ---    Tells about how much customer spent on specific amount
 #      7. Sku ID                   ---    Sku ID  Which sku id is more relevence
 #      8. E-Commerce ID            ---    Tells which E-Commerce is belong to
+#  For Meesho PDF
+# page.cropbox.lower_left = (0, 110)
+# page.cropbox.upper_left = (0,411)
 
 # import mysql.connector
 # import PyPDF2
